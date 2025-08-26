@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensional Management Services | Expert GD&T & Tolerance Analysis</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Tailwind's slate-50 */
+        }
+        .text-gradient {
+            background-image: linear-gradient(45deg, #1d4ed8, #2563eb, #3b82f6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-700">Dimensional Services</a>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about-us" class="hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="#services" class="hover:text-blue-600 transition duration-300">Services</a>
+                <a href="#expertise" class="hover:text-blue-600 transition duration-300">Expertise</a>
+                <a href="#why-us" class="hover:text-blue-600 transition duration-300">Why Choose Us</a>
+                <a href="#contact" class="hover:text-blue-600 transition duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="bg-white py-16 md:py-24 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+                    <span class="block">Expert</span>
+                    <span class="text-gradient">Dimensional Management Services</span>
+                </h1>
+                <p class="mt-4 md:mt-6 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
+                    Optimizing product development and manufacturing quality through precision, strategy, and expertise.
+                </p>
+                <a href="#contact" class="mt-8 inline-block px-8 py-4 bg-blue-700 text-white font-semibold rounded-full shadow-lg hover:bg-blue-800 transition transform hover:scale-105">
+                    Get in Touch
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="py-16 bg-slate-100">
+            <div class="container mx-auto px-4 text-center max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About the Founder</h2>
+                <p class="text-lg text-slate-600">
+                    Tim Sefton has extensive experience in the dimensional management field, having worked in both the design and production arenas for leading companies including Chrysler, FCA, Ford Motor, and Bollinger Motors.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Core Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Service Card: GD&T -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7zM21 3v13M12 6h9"></path></svg>
+                            <h3 class="text-xl font-semibold">GD&T Expertise</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Comprehensive application and interpretation of Geometric Dimensioning and Tolerancing to ensure clear and consistent design intent.
+                        </p>
+                    </div>
+
+                    <!-- Service Card: Fixture Design -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 8v13M12 11h9.231M12 11h-9.231"></path></svg>
+                            <h3 class="text-xl font-semibold">Fixture Design</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Design and validation of custom fixtures for assembly, inspection, and CMM, built for accuracy and repeatability.
+                        </p>
+                    </div>
+
+                    <!-- Service Card: Dimensional Strategy -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-2a2 2 0 012-2m14 0V9a2 2 0 00-2-2H5a2 2 0 00-2 2v2"></path></svg>
+                            <h3 class="text-xl font-semibold">Dimensional Strategy</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Strategic planning for dimensional controls in both product development and manufacturing quality improvement.
+                        </p>
+                    </div>
+
+                    <!-- Service Card: Tolerance Optimization -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 100 4 2 2 0 000-4zM16 13a2 2 0 100 4 2 2 0 000-4zM8 20a2 2 0 100 4 2 2 0 000-4z"></path></svg>
+                            <h3 class="text-xl font-semibold">Tolerance Optimization</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Fine-tuning tolerances to balance functional requirements with cost-effective manufacturing processes.
+                        </p>
+                    </div>
+
+                    <!-- Service Card: Tolerance Management -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0zM19 19v3a2 2 0 01-2 2H7a2 2 0 01-2-2v-3m14-7v-3a2 2 0 00-2-2H7a2 2 0 00-2 2v3"></path></svg>
+                            <h3 class="text-xl font-semibold">Tolerance Management</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Ongoing management to maintain dimensional integrity and resolve issues throughout the product lifecycle.
+                        </p>
+                    </div>
+
+                    <!-- Service Card: Tolerance Stack Ups -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11a1 1 0 110-2 1 1 0 010 2zM12 16a1 1 0 110-2 1 1 0 010 2zM12 21a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+                            <h3 class="text-xl font-semibold">Tolerance Stack Ups</h3>
+                        </div>
+                        <p class="text-slate-600">
+                            Accurate 1D and 2D tolerance stack ups to predict and prevent dimensional issues before they arise.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="py-16 bg-slate-100">
+            <div class="container mx-auto px-4 text-center max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Unmatched Expertise</h2>
+                <p class="text-lg text-slate-600 mb-8">
+                    With extensive experience in the automotive segment and engine development, we bring deep, practical knowledge to every project.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                    <div class="p-6 bg-white rounded-xl shadow-inner">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Product Development</h3>
+                        <p class="text-slate-600">
+                            Applying dimensional strategy from the earliest stages of design to ensure a robust and manufacturable product.
+                        </p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-inner">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Manufacturing Quality</h3>
+                        <p class="text-slate-600">
+                            Implementing strategic controls on the shop floor to maintain quality and solve dimensional challenges as they arise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-us" class="py-16 bg-blue-700 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Flexible, Focused, and Global</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-12">
+                    <div class="flex flex-col items-center max-w-sm">
+                        <svg class="w-16 h-16 text-blue-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 8v13M12 11h9.231M12 11h-9.231"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Reasonable Rates</h3>
+                        <p class="text-blue-200">
+                            Cost-effective solutions with flexible pricing, available on an hourly or project basis.
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center max-w-sm">
+                        <svg class="w-16 h-16 text-blue-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-9-9a9 9 0 019-9m-9 9c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM3 12h18"></path></svg>
+                        <h3 class="text-xl font-semibold mb-2">Global Reach</h3>
+                        <p class="text-blue-200">
+                            Our services and resources are available on a nationwide and worldwide basis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-4 text-center max-w-2xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+                <p class="text-lg text-slate-600 mb-8">
+                    Ready to optimize your dimensional strategy? Reach out today for a consultation.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-12">
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v7a2 2 0 01-2 2H7a2 2 0 01-2-2v-7"></path></svg>
+                        <a href="mailto:tim.sefton@gmail.com" class="text-lg font-medium text-blue-700 hover:underline">tim.sefton@gmail.com</a>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.158l-2.26 1.13a1 1 0 00-.43 1.104l1.194 3.252a1 1 0 00.916.634h1.026a1 1 0 00.916-.634l1.194-3.252a1 1 0 00-.43-1.104l-2.26-1.13a1 1 0 01-.502-1.158l1.498-4.493a1 1 0 01.948-.684H19a2 2 0 012 2v10a2 2 0 01-2 2h-4.78a2 2 0 01-1.637-.998l-2.58-4.502z"></path></svg>
+                        <span class="text-lg font-medium">248-568-2341</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white p-6 md:p-8 text-center text-sm text-slate-500">
+        <p>&copy; 2023 Dimensional Management Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
